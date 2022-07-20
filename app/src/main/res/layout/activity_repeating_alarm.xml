@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bg_gradient"
+    android:background="@drawable/wallp"
     tools:context=".RepeatingAlarmActivity">
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -40,9 +40,9 @@
 
 
         <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/ic_repeating"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_repeatings"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintBottom_toBottomOf="parent"/>
@@ -96,6 +96,7 @@
                     android:text="@string/txt_set_time"
                     android:fontFamily="@font/rubik_regular"
                     android:textAllCaps="false"
+                    android:backgroundTint="#929292"
                     app:layout_constraintTop_toTopOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintBottom_toBottomOf="parent"/>
@@ -123,9 +124,9 @@
             android:id="@+id/et_note_repeating"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:backgroundTint="#647AFF"
+            android:backgroundTint="@color/black"
             android:fontFamily="@font/rubik_regular"
-            android:textColor="@color/blueText"
+            android:textColor="@color/black"
             android:textSize="14sp"
             android:hint="@string/txt_input_note"
             android:layout_marginTop="10dp"
@@ -139,7 +140,7 @@
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:layout_marginTop="15dp"
-            android:background="@drawable/rounded_blue"
+            android:background="@drawable/rounded_whitess"
             android:text="@string/txt_add_set_alarm"
             android:textColor="@color/white"
             android:textAllCaps="false"
@@ -157,9 +158,9 @@
             android:text="@string/txt_cancel_set_alarm"
             android:textAllCaps="false"
             android:textSize="18sp"
-            android:textColor="@color/blueText"
+            android:textColor="@color/black"
             android:fontFamily="@font/rubik_medium"
-            android:background="@drawable/rounded_white_stroke"
+            android:background="@drawable/rounded_whitesss"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/btn_add_set_repeating_alarm" />

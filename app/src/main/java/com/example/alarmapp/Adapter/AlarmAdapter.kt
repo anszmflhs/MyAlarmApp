@@ -40,8 +40,8 @@ class AlarmAdapter() : RecyclerView.Adapter<AlarmAdapter.AlarmViewHolder>() {
         holder.view.item_date_alarm.text = alarm.date
         holder.view.item_note_alarm.text = alarm.note
         when (alarm.type) {
-            0 -> holder.view.item_img_one_time.loadImageDrawable(holder.view.context,R.drawable.ic_one_time)
-            1 -> holder.view.item_img_one_time.loadImageDrawable(holder.view.context,R.drawable.ic_repeating)
+            0 -> holder.view.item_img_one_time.loadImageDrawable(holder.view.context,R.drawable.ic_one_times)
+            1 -> holder.view.item_img_one_time.loadImageDrawable(holder.view.context,R.drawable.ic_repeatings)
         }
     }
 
